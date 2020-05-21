@@ -19,7 +19,7 @@
             styles () {
                 return {
                     width: `${this.width}px`,
-                    height: `${this.height}`,
+                    // height: `${this.height}`,
                     left: `${this.left}px`
                 };
             }
