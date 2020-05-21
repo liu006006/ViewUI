@@ -117,6 +117,7 @@
                 const visibleStyle = this.trackIndex === -1 ? 'hidden' : 'visible';
                 return {
                     width: `${this.trackWidth}px`,
+                    height:'100%',
                     transform: `translate3d(${-this.trackOffset}px, 0px, 0px)`,
                     transition: `transform 500ms ${this.easing}`,
                     visibility : visibleStyle
@@ -125,6 +126,7 @@
             copyTrackStyles () {
                 return {
                     width: `${this.trackWidth}px`,
+                    height:'100%',
                     transform: `translate3d(${-this.trackCopyOffset}px, 0px, 0px)`,
                     transition: `transform 500ms ${this.easing}`,
                     position: 'absolute',
